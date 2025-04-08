@@ -90,6 +90,9 @@ color: var(--text-color);
     animation: slide 0.4s forwards;
 }
     
+#switch button:hover {
+    outline:8px solid var(--highlight-color)
+}
 
 /* track */
 
