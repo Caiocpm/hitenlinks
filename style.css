@@ -81,13 +81,13 @@ color: var(--text-color);
     left: 0;
     z-index: 1;
     transform: translateY(-50%);
+    animation: slideout 0.4s;
   
 
 }
 
 .light #switch button {
-    right: 0;
-    left: initial;
+    animation: slide 0.4s forwards;
 }
     
 
@@ -181,3 +181,21 @@ border: 1.5px solid var(--text-color);
     }
 }
 
+@keyframes slide {
+    from {
+        left: 0;
+    }
+    to {
+        left: 50%
+    }
+}
+
+@keyframes slideout {
+    from {
+        left: 50%;
+
+    }
+    to {
+        left: 0;
+    }
+}
