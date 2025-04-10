@@ -80,8 +80,9 @@
       align-items: flex-start;
       padding: 1rem;
       width: 100%;
-      max-width: 100vw;
-      overflow-x: hidden;
+      max-width: 100%;
+      flex-wrap: wrap;
+            overflow-x: hidden;
     }
   
     nav ul {
@@ -118,22 +119,6 @@
       display: flex;
     }
 
-    .reels-container {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding: 1rem;
-        width: 100%;
-        box-sizing: border-box;
-      }
-
-      .reels-container iframe {
-        max-width: 100%;
-        height: auto;
-        aspect-ratio: 9 / 16;
-        border: none;
-        border-radius: 1rem;
-      }
 
     .reels {
         background-color: var(--bg-color);
