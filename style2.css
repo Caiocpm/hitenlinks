@@ -72,6 +72,8 @@
     font-size: 1.8rem;
     cursor: pointer;
   }
+
+  
   
   /* Responsivo */
   @media (max-width: 768px) {
@@ -118,6 +120,29 @@
     .nav-links.active {
       display: flex;
     }
+
+    .menu-toggle {
+        display: none;
+        font-size: 2rem;
+        background: none;
+        border: none;
+        cursor: pointer;
+      }
+      
+      @media (max-width: 768px) {
+        .menu-toggle {
+          display: block;
+        }
+      
+        .nav-links {
+          display: none;
+          flex-direction: column;
+        }
+      
+        .nav-links.active {
+          display: flex;
+        }
+      }
 
 
     .reels {
