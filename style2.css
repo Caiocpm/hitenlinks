@@ -118,7 +118,7 @@
       display: flex;
     }
 
-    .reels-container {
+    .Insta.reels {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -127,13 +127,6 @@
         box-sizing: border-box;
       }
 
-      .reels-container iframe {
-        max-width: 100%;
-        height: auto;
-        aspect-ratio: 9 / 16;
-        border: none;
-        border-radius: 1rem;
-      }
 
     .reels {
         background-color: var(--bg-color);
